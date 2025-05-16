@@ -1,0 +1,29 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebooks (if used)
+.ipynb_checkpoints/
+
+# Mac system files
+.DS_Store
+
+# Output and temporary files
+output/
+*.mid
+*.png
+*.json
+
+# Allow MIDI examples explicitly
+!examples/midi/*.mid
+
+# Virtual environment
+venv/
+.env/
+
+# Logs
+*.log
+
+# VS Code project settings
+.vscode/
