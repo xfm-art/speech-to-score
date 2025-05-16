@@ -1,0 +1,98 @@
+---
+title: "Stage 3A: Register-Based Instrument Assignment"
+author: "Anna Troisi"
+date: 2025-05-15
+description: "Partitioning pitch–onset pairs into symbolic registers to scaffold potential instrumentation."
+tags: [speech-to-score, register mapping, orchestration strategy, algorithmic composition, pitch segmentation]
+---
+
+## Stage 3A: Register-Based Instrument Assignment (Interdisciplinary Framework)
+
+Stage 3A introduces a preliminary orchestration scaffold by grouping pitch–onset pairs according to register-defined pitch zones. Building on the structured output from Stage 2, this phase segments the pitch domain using fixed MIDI thresholds to symbolically assign each note to one of four virtual instrumental registers. Although these labels reference conventional instrumental roles, no true part separation or multi-instrument rendering is implemented at this stage. The result is a conceptual framework to support future differentiation and ensemble texture.
+
+---
+
+## 🎯 Objective
+
+To partition the list of pitch–onset events (`midi`, `onset`) into four symbolic instrument groups based on pitch range:
+
+- **Register 1**: low register (MIDI < 60)
+- **Register 2**: mid-low register (60 ≤ MIDI < 72)
+- **Register 3**: mid-high register (72 ≤ MIDI < 84)
+- **Register 4**: high register (MIDI ≥ 84)
+
+This register-based segmentation is designed to expose the pitch profile of the speech data and suggest potential orchestrational roles.
+
+---
+
+## 📥 Input Format
+
+- Input file: `output/mapped_notes.json`
+- Format: a flat list of note objects:
+
+```json
+[
+  { "midi": 91, "onset": 0.0 },
+  { "midi": 89, "onset": 0.25 },
+  ...
+]
+
+🧪 Implementation
+Load mapped_notes.json using json.load()
+
+Iterate through the list of note events
+
+Assign each note to one of four register categories based on its midi value
+
+Store the results in a dictionary:
+
+{
+  "instrument_1": [...],
+  "instrument_2": [...],
+  "instrument_3": [...],
+  "instrument_4": [...]
+}
+
+Save the structured data to:
+output/stage3A_mapped_notes_by_register.json
+
+📈 Output Format
+Each register bin (labeled as an "instrument") contains a list of note events assigned by pitch:
+
+{
+  "instrument_1": [
+    { "midi": 59, "onset": 1.25 },
+    ...
+  ],
+  "instrument_2": [
+    { "midi": 64, "onset": 2.0 },
+    ...
+  ],
+  ...
+}
+
+🔁 Reproducibility Notes
+Python version: 3.9.12
+
+Assignment script: src/structure_parts.py
+
+Test script: run_structure.py
+
+Output file: output/stage3A_mapped_notes_by_register.json
+
+🎧 Observations from Playback
+To assess the effect of register segmentation, the mapped data was rendered as a monophonic MIDI file using a single instrument (piano). This diagnostic output preserves the full pitch range while avoiding premature part-splitting. The resulting score revealed dense rhythmic clustering, asymmetrical pacing, and repeated pitch motifs — all of which echo the prosodic and gestural characteristics of natural speech. The rendered material diverged from traditional melodic lines and instead produced cascades of short, pitch-focused gestures. This artefact demonstrates the expressive potential of the system while underscoring the need for further development in voice allocation and temporal shaping.
+
+⚠️ Limitations
+Register assignment is symbolic only; it does not produce distinct instrument voices
+
+The output remains monophonic, using a single MIDI instrument (piano)
+
+Static register boundaries may not reflect perceptual voice separation
+
+No clustering of simultaneous events or voiced polyphony
+
+The structure does not yet support dynamics, articulation, or instrument-specific constraints
+
+🧭 Next Steps
+In Stage 3B, this pitch-segmented data is grouped into temporally defined musical phrases. These groupings begin to define formal boundaries and rhythmic pacing, setting the foundation for future structuring and expressive scoring.

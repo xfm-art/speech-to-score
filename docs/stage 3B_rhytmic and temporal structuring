@@ -1,0 +1,49 @@
+---
+title: "Stage 3B: Rhythmic and Temporal Structuring"
+author: "Anna Troisi"
+date: 2025-05-15
+description: "Structuring phrase-based musical output from speech-derived pitch–onset pairs using silence-aware grouping and rest logic."
+tags: [speech-to-score, phrasing, temporal grouping, music21, silence thresholding]
+---
+
+## Stage 3B: Rhythmic and Temporal Structuring Method (Interdisciplinary Framework)
+
+Building upon the pitch–onset pairs generated in Stage 2 and the register-based segmentation in Stage 3A, Stage 3B introduces temporal structure into the musical output. The primary aim of this stage is to shape the musical data into expressive phrases that reflect the timing dynamics of natural speech. Rather than treating individual events as isolated points, Stage 3B interprets their temporal relationships to identify larger units of musical meaning, akin to gestures, utterances, or breath-bound segments in vocal performance.
+
+The process begins with a flat list of note events (`midi`, `onset`), which is sorted and parsed into grouped phrases using a silence-gap thresholding algorithm. When the time between two successive onsets exceeds a specified threshold (1.0 second in the current implementation), a phrase boundary is inferred. This approach draws from both musicological and linguistic understandings of phrasing, where silence — or perceptual absence — signals structural closure or the initiation of a new idea.
+
+The resulting groups of temporally related note events are serialized to a structured `.json` file (`stage3B_grouped_phrases.json`). Each group reflects a temporal cluster of musical activity, corresponding to a distinct speech-driven phrase. These groupings do not rely on semantic content or syntactic parsing, but rather on the rhythmic and prosodic contours of the original vocal signal, translated into musical time.
+
+To make these groupings audibly and visually accessible, a custom MIDI rendering process was implemented using the `music21` library. Each phrase is reconstituted as a contiguous musical unit, with the original onset relationships preserved within it. Crucially, explicit rests (`note.Rest()`) are inserted between phrases. The durations of these rests are calculated from the actual temporal gaps between the end of one phrase and the beginning of the next. This ensures that silences are encoded not merely as absences of events, but as structurally significant musical durations — perceptible in both playback and notated form.
+
+This stage represents a critical shift from pitch-based data mapping to formal shaping. It introduces the possibility of musical gestures that correspond to vocal pacing, emphatic breaks, or moments of rhetorical pause in the original speech. Rather than producing a uniform stream of notes, Stage 3B enables a scored output with phrased articulation and audible pacing, allowing the material to be interpreted as a temporally grounded composition rather than a purely generative stream.
+
+The underlying methodology reflects a synthesis of algorithmic structuring and creative intention. It models silence not as a void, but as a formal boundary that gives shape to the material. By embedding these boundaries into the symbolic domain, the system supports further compositional interventions — such as articulation, dynamics, or orchestrational shifts — while preserving the temporal identity of the source speech. This approach bridges speech analysis, computational creativity, and performable musical structure, contributing to ongoing discourse in aesthetic sonification, data-informed composition, and post-linguistic musical expression.
+
+---
+
+## 📥 Input Format
+
+- Input file: `output/mapped_notes.json`
+- Format: flat list of pitch–onset objects (`midi`, `onset`)
+
+## 📤 Output Files
+
+- Grouped phrase data: `output/stage3B_grouped_phrases.json`
+- MIDI rendering: `output/stage3B_phrased_score.mid`
+
+## 🧪 Key Scripts
+
+- Grouping logic: `src/phrase_grouping.py`
+- Test script: `run_grouping.py`
+- MIDI rendering: `run_render_phrased_midi.py`
+
+## 🔁 Reproducibility Notes
+
+- Python version: 3.9.12  
+- Libraries: `json`, `music21` (v6+), `os`  
+- Gap threshold: 1.0 seconds (configurable)
+
+## 🧭 Next Steps
+
+In Stage 3C, these temporally grouped phrases may be extended with expressive parameters such as dynamics, articulation, or instrumentation. The system will explore how emphasis, gesture, or voice identity in speech may be translated into performable musical qualities.
