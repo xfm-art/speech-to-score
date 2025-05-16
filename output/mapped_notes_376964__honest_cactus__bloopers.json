@@ -1,0 +1,698 @@
+[
+  {
+    "midi": 54,
+    "onset": 1.0
+  },
+  {
+    "midi": 53,
+    "onset": 2.0
+  },
+  {
+    "midi": 53,
+    "onset": 2.0
+  },
+  {
+    "midi": 54,
+    "onset": 3.0
+  },
+  {
+    "midi": 54,
+    "onset": 3.25
+  },
+  {
+    "midi": 54,
+    "onset": 3.5
+  },
+  {
+    "midi": 53,
+    "onset": 3.5
+  },
+  {
+    "midi": 53,
+    "onset": 4.0
+  },
+  {
+    "midi": 87,
+    "onset": 4.5
+  },
+  {
+    "midi": 50,
+    "onset": 5.5
+  },
+  {
+    "midi": 50,
+    "onset": 5.75
+  },
+  {
+    "midi": 50,
+    "onset": 6.25
+  },
+  {
+    "midi": 50,
+    "onset": 7.5
+  },
+  {
+    "midi": 84,
+    "onset": 7.75
+  },
+  {
+    "midi": 53,
+    "onset": 7.75
+  },
+  {
+    "midi": 76,
+    "onset": 9.25
+  },
+  {
+    "midi": 76,
+    "onset": 9.5
+  },
+  {
+    "midi": 77,
+    "onset": 9.75
+  },
+  {
+    "midi": 54,
+    "onset": 10.25
+  },
+  {
+    "midi": 54,
+    "onset": 10.5
+  },
+  {
+    "midi": 54,
+    "onset": 10.75
+  },
+  {
+    "midi": 94,
+    "onset": 11.5
+  },
+  {
+    "midi": 55,
+    "onset": 11.5
+  },
+  {
+    "midi": 54,
+    "onset": 11.75
+  },
+  {
+    "midi": 54,
+    "onset": 12.0
+  },
+  {
+    "midi": 56,
+    "onset": 12.25
+  },
+  {
+    "midi": 53,
+    "onset": 12.5
+  },
+  {
+    "midi": 54,
+    "onset": 13.0
+  },
+  {
+    "midi": 54,
+    "onset": 13.25
+  },
+  {
+    "midi": 53,
+    "onset": 13.25
+  },
+  {
+    "midi": 54,
+    "onset": 13.5
+  },
+  {
+    "midi": 55,
+    "onset": 13.75
+  },
+  {
+    "midi": 54,
+    "onset": 14.0
+  },
+  {
+    "midi": 54,
+    "onset": 14.25
+  },
+  {
+    "midi": 54,
+    "onset": 15.25
+  },
+  {
+    "midi": 53,
+    "onset": 15.25
+  },
+  {
+    "midi": 91,
+    "onset": 15.5
+  },
+  {
+    "midi": 91,
+    "onset": 16.25
+  },
+  {
+    "midi": 63,
+    "onset": 16.5
+  },
+  {
+    "midi": 61,
+    "onset": 16.75
+  },
+  {
+    "midi": 95,
+    "onset": 18.0
+  },
+  {
+    "midi": 95,
+    "onset": 18.25
+  },
+  {
+    "midi": 74,
+    "onset": 18.5
+  },
+  {
+    "midi": 90,
+    "onset": 20.0
+  },
+  {
+    "midi": 90,
+    "onset": 20.5
+  },
+  {
+    "midi": 64,
+    "onset": 20.75
+  },
+  {
+    "midi": 58,
+    "onset": 21.0
+  },
+  {
+    "midi": 58,
+    "onset": 21.0
+  },
+  {
+    "midi": 58,
+    "onset": 21.25
+  },
+  {
+    "midi": 60,
+    "onset": 21.5
+  },
+  {
+    "midi": 97,
+    "onset": 21.75
+  },
+  {
+    "midi": 97,
+    "onset": 21.75
+  },
+  {
+    "midi": 68,
+    "onset": 22.0
+  },
+  {
+    "midi": 91,
+    "onset": 23.5
+  },
+  {
+    "midi": 90,
+    "onset": 23.75
+  },
+  {
+    "midi": 61,
+    "onset": 23.75
+  },
+  {
+    "midi": 61,
+    "onset": 24.0
+  },
+  {
+    "midi": 57,
+    "onset": 24.25
+  },
+  {
+    "midi": 91,
+    "onset": 24.25
+  },
+  {
+    "midi": 91,
+    "onset": 25.0
+  },
+  {
+    "midi": 91,
+    "onset": 25.25
+  },
+  {
+    "midi": 90,
+    "onset": 25.5
+  },
+  {
+    "midi": 81,
+    "onset": 26.25
+  },
+  {
+    "midi": 82,
+    "onset": 26.75
+  },
+  {
+    "midi": 82,
+    "onset": 27.25
+  },
+  {
+    "midi": 82,
+    "onset": 27.5
+  },
+  {
+    "midi": 98,
+    "onset": 27.5
+  },
+  {
+    "midi": 98,
+    "onset": 28.5
+  },
+  {
+    "midi": 98,
+    "onset": 28.75
+  },
+  {
+    "midi": 83,
+    "onset": 29.25
+  },
+  {
+    "midi": 53,
+    "onset": 29.25
+  },
+  {
+    "midi": 53,
+    "onset": 29.5
+  },
+  {
+    "midi": 53,
+    "onset": 29.75
+  },
+  {
+    "midi": 53,
+    "onset": 29.75
+  },
+  {
+    "midi": 53,
+    "onset": 30.0
+  },
+  {
+    "midi": 94,
+    "onset": 30.25
+  },
+  {
+    "midi": 94,
+    "onset": 30.5
+  },
+  {
+    "midi": 90,
+    "onset": 30.75
+  },
+  {
+    "midi": 90,
+    "onset": 31.0
+  },
+  {
+    "midi": 82,
+    "onset": 31.5
+  },
+  {
+    "midi": 81,
+    "onset": 32.25
+  },
+  {
+    "midi": 81,
+    "onset": 33.0
+  },
+  {
+    "midi": 81,
+    "onset": 33.25
+  },
+  {
+    "midi": 81,
+    "onset": 34.0
+  },
+  {
+    "midi": 60,
+    "onset": 34.0
+  },
+  {
+    "midi": 58,
+    "onset": 34.25
+  },
+  {
+    "midi": 67,
+    "onset": 34.75
+  },
+  {
+    "midi": 67,
+    "onset": 37.0
+  },
+  {
+    "midi": 66,
+    "onset": 37.0
+  },
+  {
+    "midi": 66,
+    "onset": 37.25
+  },
+  {
+    "midi": 66,
+    "onset": 37.5
+  },
+  {
+    "midi": 54,
+    "onset": 37.75
+  },
+  {
+    "midi": 55,
+    "onset": 38.0
+  },
+  {
+    "midi": 56,
+    "onset": 38.25
+  },
+  {
+    "midi": 57,
+    "onset": 39.25
+  },
+  {
+    "midi": 57,
+    "onset": 39.5
+  },
+  {
+    "midi": 58,
+    "onset": 40.25
+  },
+  {
+    "midi": 58,
+    "onset": 40.5
+  },
+  {
+    "midi": 58,
+    "onset": 40.75
+  },
+  {
+    "midi": 78,
+    "onset": 41.0
+  },
+  {
+    "midi": 78,
+    "onset": 41.75
+  },
+  {
+    "midi": 77,
+    "onset": 41.75
+  },
+  {
+    "midi": 80,
+    "onset": 42.0
+  },
+  {
+    "midi": 79,
+    "onset": 42.25
+  },
+  {
+    "midi": 67,
+    "onset": 42.5
+  },
+  {
+    "midi": 67,
+    "onset": 42.5
+  },
+  {
+    "midi": 66,
+    "onset": 42.75
+  },
+  {
+    "midi": 67,
+    "onset": 43.25
+  },
+  {
+    "midi": 67,
+    "onset": 44.0
+  },
+  {
+    "midi": 67,
+    "onset": 44.25
+  },
+  {
+    "midi": 67,
+    "onset": 44.5
+  },
+  {
+    "midi": 57,
+    "onset": 44.75
+  },
+  {
+    "midi": 58,
+    "onset": 45.25
+  },
+  {
+    "midi": 59,
+    "onset": 45.5
+  },
+  {
+    "midi": 59,
+    "onset": 46.25
+  },
+  {
+    "midi": 58,
+    "onset": 46.75
+  },
+  {
+    "midi": 59,
+    "onset": 47.0
+  },
+  {
+    "midi": 60,
+    "onset": 47.25
+  },
+  {
+    "midi": 59,
+    "onset": 47.25
+  },
+  {
+    "midi": 58,
+    "onset": 48.25
+  },
+  {
+    "midi": 57,
+    "onset": 48.25
+  },
+  {
+    "midi": 57,
+    "onset": 48.5
+  },
+  {
+    "midi": 56,
+    "onset": 48.5
+  },
+  {
+    "midi": 106,
+    "onset": 48.75
+  },
+  {
+    "midi": 103,
+    "onset": 49.0
+  },
+  {
+    "midi": 103,
+    "onset": 49.25
+  },
+  {
+    "midi": 54,
+    "onset": 49.5
+  },
+  {
+    "midi": 54,
+    "onset": 50.0
+  },
+  {
+    "midi": 69,
+    "onset": 50.25
+  },
+  {
+    "midi": 68,
+    "onset": 51.0
+  },
+  {
+    "midi": 89,
+    "onset": 51.0
+  },
+  {
+    "midi": 89,
+    "onset": 51.25
+  },
+  {
+    "midi": 90,
+    "onset": 51.25
+  },
+  {
+    "midi": 91,
+    "onset": 51.5
+  },
+  {
+    "midi": 89,
+    "onset": 52.25
+  },
+  {
+    "midi": 59,
+    "onset": 52.75
+  },
+  {
+    "midi": 59,
+    "onset": 53.5
+  },
+  {
+    "midi": 58,
+    "onset": 54.0
+  },
+  {
+    "midi": 59,
+    "onset": 54.75
+  },
+  {
+    "midi": 59,
+    "onset": 55.0
+  },
+  {
+    "midi": 59,
+    "onset": 55.25
+  },
+  {
+    "midi": 58,
+    "onset": 55.5
+  },
+  {
+    "midi": 61,
+    "onset": 57.0
+  },
+  {
+    "midi": 95,
+    "onset": 57.25
+  },
+  {
+    "midi": 95,
+    "onset": 57.25
+  },
+  {
+    "midi": 90,
+    "onset": 57.5
+  },
+  {
+    "midi": 95,
+    "onset": 57.75
+  },
+  {
+    "midi": 58,
+    "onset": 57.75
+  },
+  {
+    "midi": 59,
+    "onset": 58.25
+  },
+  {
+    "midi": 58,
+    "onset": 58.75
+  },
+  {
+    "midi": 58,
+    "onset": 60.25
+  },
+  {
+    "midi": 57,
+    "onset": 60.5
+  },
+  {
+    "midi": 57,
+    "onset": 61.0
+  },
+  {
+    "midi": 56,
+    "onset": 61.5
+  },
+  {
+    "midi": 56,
+    "onset": 62.0
+  },
+  {
+    "midi": 56,
+    "onset": 62.25
+  },
+  {
+    "midi": 56,
+    "onset": 63.5
+  },
+  {
+    "midi": 56,
+    "onset": 63.75
+  },
+  {
+    "midi": 57,
+    "onset": 64.0
+  },
+  {
+    "midi": 57,
+    "onset": 64.0
+  },
+  {
+    "midi": 57,
+    "onset": 64.25
+  },
+  {
+    "midi": 57,
+    "onset": 64.5
+  },
+  {
+    "midi": 57,
+    "onset": 64.5
+  },
+  {
+    "midi": 57,
+    "onset": 65.5
+  },
+  {
+    "midi": 57,
+    "onset": 67.0
+  },
+  {
+    "midi": 57,
+    "onset": 67.25
+  },
+  {
+    "midi": 56,
+    "onset": 67.5
+  },
+  {
+    "midi": 55,
+    "onset": 67.5
+  },
+  {
+    "midi": 54,
+    "onset": 67.75
+  },
+  {
+    "midi": 54,
+    "onset": 67.75
+  },
+  {
+    "midi": 54,
+    "onset": 68.0
+  },
+  {
+    "midi": 53,
+    "onset": 68.25
+  },
+  {
+    "midi": 54,
+    "onset": 68.75
+  },
+  {
+    "midi": 54,
+    "onset": 71.0
+  }
+]
