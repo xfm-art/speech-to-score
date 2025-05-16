@@ -19,7 +19,3 @@ docs/ – detailed methodology (Markdown per stage)
 data/ – input .wav files
 
 output/ – extracted features, MIDI files, grouped phrases
-
-yaml
-Copy
-Edit
